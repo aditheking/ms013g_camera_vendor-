@@ -1,6 +1,6 @@
 # Camara
 PRODUCT_COPY_FILES += \
-    vendor/samsung/klte-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+   $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
    $(LOCAL_PATH)/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
    $(LOCAL_PATH)/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
    $(LOCAL_PATH)/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
